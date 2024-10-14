@@ -1,7 +1,6 @@
 Proceso _18_arrelQuadradaICubica
 	//	Anàlisi:
-	//		Es demanen número i es mostra
-	//		l'arrel quadrada i la cúbica.
+	//		Es demanen número i em de mostra l'arrel quadrada i la cúbica.
 	//	Dades d'entrada:
 	//		nombre de tipus Entero
 	//	Dades de sortida:
@@ -14,10 +13,8 @@ Proceso _18_arrelQuadradaICubica
 	//		l'arrel cúbica a cap variable.
 	//	Disseny:
 	//		Llegir el número
-	//		Calcular arrel quadrada: PseInt té dues
+	//		Calcular arrel quadrada: es pot fer de dues maneras
 	//			funcions (raiz(), RC())
-	//		Calcular arrel cúbica: PseInt NO té
-	//			cap funció, com ho podem fer??????
 	//		Mostrar les dues arrels.
 	
 	
@@ -30,3 +27,10 @@ Proceso _18_arrelQuadradaICubica
 	Escribir "L arrel quadrada de ", nombre , " es ", arrelQuadrada;
 	Escribir "L arrel cubica de ", nombre , " es ", arrelCubica;
 FinProceso
+
+
+
+//diseny
+//hem de llegir el numero
+// hem de calcular l'arrel cuadrada amb la funcio rc()
+//calcular l'arrel cubica utilitezm el ^ i fem 1/3 ens dona la arrel cubica
