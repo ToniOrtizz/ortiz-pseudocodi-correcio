@@ -24,7 +24,7 @@ def modificar_Hores(nomsEstudiants, horesEstudi):
             trobat = True
         index += 1
     if not trobat:
-        print("Estudiant no trobat.")
+        print("Estudiant no existent.")
 
 def mostrar_Estudiants(nomsEstudiants, horesEstudi):
     if len(nomsEstudiants) == 0:
@@ -37,7 +37,7 @@ def mostrar_Estudiants(nomsEstudiants, horesEstudi):
             index += 1
 
 def eliminar_Estudiant(nomsEstudiants, horesEstudi):
-    nom = input("Introdueix el nom de l'estudiant a eliminar: ")
+    nom = input("Introdueix el nom de l'estudiant que vols eliminar: ")
     index = 0
     trobat = False
     while index < len(nomsEstudiants):
@@ -78,8 +78,8 @@ if __name__ == '__main__':
             print("bondia seleciona la opcio mes excitant :")
             print("1. Afegir estudiant")
             print("2. Modificar hores d'estudi")
-            print("3. Eliminar estudiant")
-            print("4. Mostrar estudiants")
+            print("3. Bworra estudiant")
+            print("4. enseña estudiants")
             print("5. Calcular mitjana d'hores d'estudi")
             print("6. Sortir")
             opcio = input("Selecciona una opció: ")
