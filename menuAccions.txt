@@ -1,0 +1,5 @@
+Afegir estudiants.
+Modificar les hores d'estudi d'un estudiant.
+Eliminar un estudiant.
+Mostrar tots els estudiants i les seves hores d'estudi.
+Calcular la mitjana d'hores d'estudi entre tots els estudiants.
