@@ -102,6 +102,7 @@ if __name__ == "__main__":
                 print("Fins la propera!")
                 guardarEstudiants()
                 break
+
             elif opcio == 1:
                 afegirEstudiant()
             elif opcio == 2:
