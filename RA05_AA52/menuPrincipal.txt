@@ -1,0 +1,4 @@
+Afegir vehicle
+Esborrar vehicle
+Mostrar tots els vehicles
+Calcular estadístiques
