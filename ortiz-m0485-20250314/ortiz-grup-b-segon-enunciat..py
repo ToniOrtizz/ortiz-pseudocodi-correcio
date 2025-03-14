@@ -7,7 +7,8 @@ MISSATGE_OPCIO_SORTIDA = "0 - Sortir."
 # Definició de variables
 
 
-vPuntuacions=list()
+vPuntuacions = []
+
 
 
 
@@ -15,37 +16,11 @@ vPuntuacions=list()
 
 
 if __name__ == '__main__':
+    vPuntuacions
 
-    print(f"Contingut del fitxer '{puntuacionsIn.txt}':")
+    print(f"les puntuacions carregades son'{puntuacionsIn.txt}':")
     print(contingut)
 
-    # Definició de variables
-    opcioEscollida = int()
-    sortir = bool()
-    # Inicialització de variables
-    inicialitzaElsVectors()
-    quantitatDOpcions = comptaLiniesFitxer(FITXER_MENU)
-    cadenaOpcions=ompleCadenaDOpcions()
-    ompleOpcionsAEscollir()
-    sortir = False
+    print(f" Fitxer amb la puntuació mínima, la puntuació màxima i la puntuació mitjana guardat correctament{puntuacionsIn.txt}!")
+    print(contingut)
 
-    carregarDades()
-    while (sortir != True):
-        opcioEscollida = tornaOpcioMenu()
-        match(opcioEscollida):
-            case 1:
-                afegirVehicle()
-            case 2:
-                esborrarVehicle()
-            case 3:
-                mostrarFlota()
-            case 4:
-                calcularEstadistiques()
-            case 5:
-                modificarDadesVehicle()
-            case 0:
-                guardarDades()
-                print("Fins la propera!")
-                sortir = True
-            case _:
-                print("Funció pendent de desenvolupar!")
