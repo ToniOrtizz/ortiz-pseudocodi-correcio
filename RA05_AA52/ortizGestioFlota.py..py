@@ -98,7 +98,7 @@ def esborrarVehicle():
     """Esborra un vehicle donada la matrícula."""
     matricula = input("Introdueix la matrícula del vehicle a esborrar: ")
     if matricula in matricules:
-        index = matricules.index(matricula)
+        index = matricules.index(matricula)" INDEX = CERCA LA POSICIO DEL QUE ESTEM BUSCAN A LA ARRAY"
         del matricules[index]
         del models[index]
         del anys[index]
@@ -107,6 +107,7 @@ def esborrarVehicle():
         print("Vehicle esborrat correctament!")
     else:
         print("No s'ha trobat cap vehicle amb aquesta matrícula.")
+
 
 
 
