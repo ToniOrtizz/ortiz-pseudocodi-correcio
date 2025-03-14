@@ -16,7 +16,7 @@ def afegirPersonatge(nomRebut, classeRebuda, poderRebut):
 def determinarRangPersonatge(poder):
 
     if poder <= 100:
-        return "NOVATO"
+        return "NOVATOo"
     elif poder <= 250:
         return "EXPERT"
     elif poder <= 400:
