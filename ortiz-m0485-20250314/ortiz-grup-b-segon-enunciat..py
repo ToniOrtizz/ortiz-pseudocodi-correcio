@@ -1,13 +1,14 @@
-NOM_FITXER_VEHICLES = "puntuacionsIn.txt"
-MISSATGE_ERROR = "\n\tERROR!\n\tCal que el valor estigui dins de l'interval!\n\tSi us plau, torna a intentar-ho!\n"
-MISSATGE_DEMANAR_OPCIO = "Entra una de les següents opcions"
-MISSATGE_OPCIO_SORTIDA = "0 - Sortir."
+vPuntuacions = []
+
+# Llegir dades del fitxer puntuacionsIn.txt
+with open("puntuacionsIn.txt", "r") as fitxer_entrada:
+    for linia in fitxer_entrada:
+        vPuntuacions.append(float(linia.strip()))
 
 
 
 
 
-Vpuntuacions=list()
 
 
 
@@ -15,6 +16,8 @@ Vpuntuacions=list()
 
 
 
-if __name__ == '__main__':
+
+
+
 
 
