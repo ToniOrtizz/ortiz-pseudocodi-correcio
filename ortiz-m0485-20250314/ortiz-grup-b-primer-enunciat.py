@@ -39,6 +39,33 @@ def mostrarPersonatges():
 
 
 if __name__ == "__main__":
+    """
+               Funció principal que mostra el menú i gestiona les opcions de l'usuari
+               """
+    while True:
+        print("\n=== Gestió de Personatges d'un Videojoc ===")
+        print("1. Afegir un nou personatge")
+        print("2. mostrar tots els personatges")
+        print("3. Sortir del menu")
+
+        opcio = input("Tria una opció: ")
+
+        if opcio == "1":
+            nom = input("Introdueix el nom del personatge: ")
+            classe = input("introdueix la classe del personatge: ")
+            try:
+                poder = int(input("inotrdueix el nivel de poderm del teu personatge: "))
+                afegirPersonatge(nom, classe, poder)
+            except ValueError:
+                print("Error: El nivell de poder ha de ser un número enter.")
+        elif opcio == "2":
+            mostrarPersonatges()
+        elif opcio == "3":
+            print("Sortint del programa...")
+            break
+        else:
+            print("Opció no vàlida. Torna a intentar-ho.")
+
 
 
 
